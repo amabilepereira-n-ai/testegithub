@@ -1,0 +1,91 @@
+* {
+    margin: 0; /* muda a forma como os elementos são exibidos na tela */
+    padding: 0; /* muda a forma como os elementos são exibidos na tela */
+    box-sizing: border-box; /* muda a forma como os elementos são exibidos na tela */
+    font-family: Arial, Helvetica, sans-serif; /* muda a fonte do site*/
+}
+
+body {
+    background: #1f2937; /* muda a cor do fundo da pagina*/
+}
+
+header {
+    background:#1f2937; /* muda a cor do cabeçalho*/
+    color: pink; /* muda a cor do cabeçalho*/
+    padding: 20px; /* muda o tamanho do cabeçalho*/
+    text-align: center; /* muda a cor do titulo*/
+}
+
+nav ul {
+    display: flex; /* muda a forma como os links do menu são exibidos na tela */
+    justify-content: center; /* muda a forma como os links do menu são exibidos na tela */
+    list-style: none; /* muda a forma como os links do menu são exibidos na tela */
+    gap: 20px; /* muda a distancia entre os links do menu*/
+    margin-top: 15px; /* muda a distancia do menu para o titulo*/
+}
+
+nav a {
+    color: white; /* muda a cor do link*/
+    text-decoration: none; /* muda a cor do link*/
+    font-weight: bold; /* muda a cor do link*/
+}
+
+nav a:hover {
+    color: pink; /* muda a cor do link quando o mouse passa por cima */
+}
+
+section {
+    padding: 30px; /* muda o tamanho do conteudo*/
+}
+
+section h2 {
+    margin-bottom: 20px; /* muda a distancia do titulo para o conteudo*/
+    border-bottom: 2px solid pink; /* muda a cor da linha do titulo*/
+    padding-bottom: 10px; /* muda a distancia do titulo para o conteudo*/
+}
+
+.produtos,
+.catalogo {
+    display: flex; /* muda a forma como os produtos são exibidos na tela */
+    flex-wrap: wrap; /* permite que os produtos se ajustem à tela */
+    gap: 20px; /* muda a distancia entre os produtos*/
+    justify-content: center; /* centraliza os produtos na tela */
+}
+
+.card {
+    background: white; /* muda a cor do card*/
+    width: 300px; /* muda o tamanho do card*/
+    padding: 15px; /* muda o tamanho do card*/
+    border-radius: 10px; /* muda o tamanho do card*/
+    border: 1px solid #ccc; /* muda a cor da borda do card*/
+    text-align: center; /* muda o tamanho do card*/
+}
+
+.card img {
+    width: 100%; /* muda o tamanho da imagem*/
+    height: 220px; /* muda o tamanho da imagem*/
+    object-fit: cover; /* muda o tamanho da imagem*/
+    border-radius: 8px; /* muda o tamanho da imagem*/
+}
+
+.card a {
+    display: inline-block; /* muda o tamanho do botao*/
+    margin-top: 10px; /* muda a distancia do botao para o conteudo*/
+    padding: 10px 15px; /* muda o tamanho do botao*/
+    background: #1f2937; /* muda a cor do botao*/
+    color: white; /* muda a cor do botao*/
+    text-decoration: none; /* muda a cor do botao*/
+    border-radius: 5px; /* muda a cor do botao*/
+}
+
+.card a:hover {
+    background: #374151; /* muda a cor do botao*/
+}
+
+footer {
+    background: #1f2937;  /* muda a cor do rodape*/      
+    color: white;  /* muda a cor do texto do rodape*/ 
+    text-align: center; /* centraliza o texto do rodape */
+    padding: 20px; /* muda o tamanho do rodape*/
+    margin-top: 30px; /* muda a distancia do rodape para o conteudo*/
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amabile</title>
+</head>
+
+<body>
+    <h1>Fale conosco</h1>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" placeholder="Seu nome completo" required><br></br>
+
+            <label for="email">email</label><br>
+            <input type="e-mail" id="email" placeholder="Seu e-mail" required><br></br>
+
+            <label for="telefone">telefone</label><br>
+            <input type="tel" id="telefone" placeholder="Digite seu telefone" required><br></br>
+
+            <label for="como">como conheceu a escola?:</label><br>
+            <select id="como">
+
+                <option>Por elogios</option>
+                <option>Por redes sociais</option>
+                <option>Por recomendações</option>
+
+                <label>Turno preferido:</label><br>
+                <input type="radio" name="turno" value="m"> Manhã
+                <input type="radio" name="turno" value="t"> Tarde
+                <input type="radio" name="turno" value="n"> Noite
+                <br><br>
+
+                <input type="checkbox">
+                Aceito receber novidades por e-mail<br><br>
+
+
+                <label for="obs">Observações:</label><br>
+                <textarea id="obs" rows="3" placeholder="Alguma observação?"></textarea>
+                <br><br>
+
+                <button type="submit">Enviar orçamento</button>
+        </fieldset>
+    </form>
